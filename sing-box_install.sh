@@ -28,7 +28,7 @@ echo "--- 2/5 正在下载 sing-box.sh 和 config.conf，并设置权限 ---"
 
 # 定义不同的下载地址
 SINGBOX_URL="https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh"
-CONFIG_URL="https://alist.lbj3.top:8443/d/m3u8/config.conf"
+CONFIG_URL="https://raw.githubusercontent.com/LIUBANGJIAN/sing-box_installer/refs/heads/main/config.conf"
 
 # 将两个文件的下载和 sing-box.sh 的权限设置合并到一行，只有前一个成功，后一个才会执行
 curl -L -s -o sing-box.sh "${SINGBOX_URL}" && \
